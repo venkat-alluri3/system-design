@@ -11,6 +11,7 @@ Discuss how to approach system design interview and make a template to follow in
  End goal is to clarify the function and non-function requirements
  #### Non-function requirements
   |  Users/Customers                                | Scale                                       | Perforamnce of the sytem |
+  -----------------------------------------------------------------------------------------------------------------------------
   | 1. Use cases of the system                      |                                             | What is expected write to read delay |         
   
   | 2. How the sytem will be used (Usage patterns)  | How much data is queried per request,       | What is expected p99 latenct for the |
