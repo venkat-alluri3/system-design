@@ -31,10 +31,10 @@ Discuss how to approach system design interview and make a template to follow in
 #### 3. Envolope calculations(capacity) [4 min]
 What is capacity estimation
 A quick and approximate calculation of storage and bandwidth that gives us further insight. Helps to calculate
-> How much storage is needed
-> How many machines will be required
-> What scale is expected from the system
-> Overall, it gives us a rough estimate
+ * How much storage is needed
+ * How many machines will be required
+ * What scale is expected from the system
+ * Overall, it gives us a rough estimate
 
 *How do we do the capacity estimantion and calculations:*
 
