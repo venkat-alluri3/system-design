@@ -35,6 +35,7 @@ A quick and approximate calculation of storage and bandwidth that gives us furth
  * How many machines will be required
  * What scale is expected from the system
  * Overall, it gives us a rough estimate
+ * How much bandwidth is needed
 
 *How do we do the capacity estimantion and calculations:*
 
