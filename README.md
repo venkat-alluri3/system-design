@@ -10,32 +10,37 @@ Discuss how to approach system design interview and make a template to follow in
  ### 2. Requirements clarifications [5 min]
  End goal is to clarify the function and non-function requirements
 
-#### Users/Customers
+*Users/Customers*
 1. Use cases of the system 
 2. How the sytem will be used (Usage patterns)
 3. How many will use the system
 4. who will use the system 
 5. What are the inputs and outputs of the system 
 
-#### Scale
+*Scale*
 1. How much data is queried per request 
 2. Can there be spike in the traffic
 3. How much data is processed/ written
 4. How many read/wrire queries
 5. How much data are we expected to handle
 
-#### performance
+*performance*
 1. What is expected write to read delay
 2. What is expected p99 latency for the read queries
+
+*Dicuss constraints*
+1. Any limitaions in the system
+2. What is allowed and what is not allowed
 
 #### 3. Envolope calculations(capacity) [4 min]
 What is capacity estimation
 A quick and approximate calculation of storage and bandwidth that gives us further insight. Helps to calculate
- * How much storage is needed
- * How many machines will be required
- * What scale is expected from the system
- * Overall, it gives us a rough estimate
- * How much bandwidth is needed
+- traffic estimation (read request per sec, write requests per sec)
+- storage estimation (storage needed to store worth 3 yrs of stored 'object')
+- bandwidth estimate (#of bytes/sec system should handle for incoming and outgoing traffic)
+- cache estimate (memory needed to cache some of the hot read responses, 80-20 rule)
+- Read/write ratio
+- Latency expected from the system
 
 *How do we do the capacity estimantion and calculations:*
 
@@ -88,4 +93,21 @@ The following numbers are heavily rounded and help determine how often something
 |Second |12k        | 12        |.01      |
 
 https://matthewdbill.medium.com/back-of-envelope-calculations-cheat-sheet-d6758d276b05
+
+
+#### 4. Design Goals
+
+1. Latency and Thought requirements
+2. Consistency vs Availability 
+   - Weak/Strong/eventual ->consistency
+   - Failover/replication ->availability
+
+#### 5. High level Design
+1. API's for Read/Write scenarios for crucial componenets
+2. Database schema
+3. Basic Algorithm
+4. High level design for Read/write scenario
+
+
+
 
