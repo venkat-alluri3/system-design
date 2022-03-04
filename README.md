@@ -12,9 +12,9 @@ Discuss how to approach system design interview and make a template to follow in
  #### Non-function requirements
   |  Users/Customers| Scale| Perforamnce of the sytem |
   |-----------------|-------|--------------------------|
-  | 1. Use cases of the system                      || What is expected write to read delay |         
-  | 2. How the sytem will be used (Usage patterns)  | How much data is queried per request,How much data is processed/ written to the read quiries.Can there be spike in the traffic        | What is expected p99 latenct for the |                                                                      
-  | 3. How many will use the system                 |                                             | |
+  | 1. Use cases of the system                      |How much data is queried per request| What is expected write to read delay |         
+  | 2. How the sytem will be used (Usage patterns)  | How much data is processed/ written to the read quiries     | What is expected p99 latency for the read queries |                                                                      
+  | 3. How many will use the system                 |  Can there be spike in the traffic| |
   | 4. who will use the system                      | How many read/wrire queries                 | |     
 
 
