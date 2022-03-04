@@ -114,12 +114,12 @@ https://matthewdbill.medium.com/back-of-envelope-calculations-cheat-sheet-d6758d
 	-> Availability, Consistency and Scale story for each component
         -> Consistency and availability patterns
 3. Think about the following components, how they would fit in and how it would help
-	a. DNS
- 	b. CDN [Push vs Pull]
- 	c. Load Balancers [Active-Passive, Active-Active, Layer 4, Layer 7]
-	d. Reverse Proxy
-	e. Application layer scaling [Microservices, Service Discovery]
-	f. DB [RDBMS, NoSQL]
+	1. DNS
+ 	2. CDN [Push vs Pull]
+ 	3. Load Balancers [Active-Passive, Active-Active, Layer 4, Layer 7]
+	4. Reverse Proxy
+	5. Application layer scaling [Microservices, Service Discovery]
+	6. DB [RDBMS, NoSQL]
 		* RDBMS 
          		Master-slave, Master-master, Federation, Sharding, Denormalization, SQL Tuning
       		* NoSQL
@@ -128,18 +128,18 @@ https://matthewdbill.medium.com/back-of-envelope-calculations-cheat-sheet-d6758d
            			* RAM  [Bounded size] => Redis, Memcached
            			* AP [Unbounded size] => Cassandra, RIAK, Voldemort
            			* CP [Unbounded size] => HBase, MongoDB, Couchbase, DynamoDB
-	g. Caches
+	7. Caches
     		* Client caching, CDN caching, Webserver caching, Database caching, Application caching, Cache @Query level, Cache @Object level
      		* Eviction policies*
       			* Cache aside
       			* Write through
       			* Write behind
       			* Refresh ahea
-	h. Asynchronism
+	8. Asynchronism
 		* Message queues
       		* Task queues
       		* Back pressure
- 	i. Communication
+ 	9. Communication
     		* TCP
     		* UDP
     		* REST
