@@ -59,22 +59,22 @@ Trillions = TB (12 zeros)
 Quadrilions = PB (15 zeros)
 
 Byte Conversions
-1B = 8bits
-1KB = 1000B
-1MB = 1000KB
-1GB = 1000MB
+- 1B = 8bits
+- 1KB = 1000B
+- 1MB = 1000KB
+- 1GB = 1000MB
 
 Objects
-File: 100 KB
-Web Page: 100 KB (not including images)
-Picture: 200 KB
-Short Posted Video: 2MB
-Steaming Video: 50MB per minute
-Long/Lat: 8B
-Lengths
-Maximum URL Size: ~2000 (depends on browser)
-ASCII charset: 128
-Unicode charset: 143, 859
+- File: 100 KB 
+- Web Page: 100 KB (not including images)
+- Picture: 200 KB
+- Short Posted Video: 2MB
+- Steaming Video: 50MB per minute
+- Long/Lat: 8B
+- Lengths
+- Maximum URL Size: ~2000 (depends on browser)
+- ASCII charset: 128
+- Unicode charset: 143, 859
 
 Per Period Numbers
 The following numbers are heavily rounded and help determine how often something needs to happen over a period of time. For example, if a server has a million requests per day, it will need to handle 12 requests per second.
