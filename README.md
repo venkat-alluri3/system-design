@@ -136,13 +136,13 @@ https://matthewdbill.medium.com/back-of-envelope-calculations-cheat-sheet-d6758d
       			c. Write behind
       			d. Refresh ahea
 	8. Asynchronism
-		- Message queues
-      		- Task queues
-      		- Back pressure
+	- Message queues
+      	- Task queues
+      	- Back pressure
  	9. Communication
-    	   - TCP
-    	   - UDP
-           - REST
-    	   - RPC
+    	- TCP
+    	- UDP
+        - REST
+    	- RPC
 
    
