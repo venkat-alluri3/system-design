@@ -125,16 +125,16 @@ https://matthewdbill.medium.com/back-of-envelope-calculations-cheat-sheet-d6758d
       		2. NoSQL
          		1. Key-Value, Wide-Column, Graph, Document
           		2. Fast-lookups:
-           			1. RAM  [Bounded size] => Redis, Memcached
-           			2. AP [Unbounded size] => Cassandra, RIAK, Voldemort
-           			3. CP [Unbounded size] => HBase, MongoDB, Couchbase, DynamoDB
+           			a. RAM  [Bounded size] => Redis, Memcached
+           			b. AP [Unbounded size] => Cassandra, RIAK, Voldemort
+           			c. CP [Unbounded size] => HBase, MongoDB, Couchbase, DynamoDB
 	7. Caches
     		- Client caching, CDN caching, Webserver caching, Database caching, Application caching, Cache @Query level, Cache @Object level
      		- *Eviction policies*
-      			1. Cache aside
-      			2. Write through
-      			3. Write behind
-      			4. Refresh ahea
+      			a. Cache aside
+      			b. Write through
+      			c. Write behind
+      			d. Refresh ahea
 	8. Asynchronism
 		- Message queues
       		- Task queues
