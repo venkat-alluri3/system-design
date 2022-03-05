@@ -129,8 +129,8 @@ https://matthewdbill.medium.com/back-of-envelope-calculations-cheat-sheet-d6758d
            			b. AP [Unbounded size] => Cassandra, RIAK, Voldemort
            			c. CP [Unbounded size] => HBase, MongoDB, Couchbase, DynamoDB
 	7. Caches
-    		- Client caching, CDN caching, Webserver caching, Database caching, Application caching, Cache @Query level, Cache @Object level
-     		- *Eviction policies*
+    		Client caching, CDN caching, Webserver caching, Database caching, Application caching, Cache @Query level, Cache @Object level
+     		Eviction policies
       			a. Cache aside
       			b. Write through
       			c. Write behind
@@ -140,9 +140,9 @@ https://matthewdbill.medium.com/back-of-envelope-calculations-cheat-sheet-d6758d
       		- Task queues
       		- Back pressure
  	9. Communication
-    		- TCP
-    		- UDP
-    		- REST
-    		- RPC
+    	   - TCP
+    	   - UDP
+           - REST
+    	   - RPC
 
    
