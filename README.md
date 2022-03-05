@@ -127,7 +127,7 @@ https://matthewdbill.medium.com/back-of-envelope-calculations-cheat-sheet-d6758d
           - Fast-lookups:
             - RAM  [Bounded size] => Redis, Memcached
             - AP [Unbounded size] => Cassandra, RIAK, Voldemort
-           - CP [Unbounded size] => HBase, MongoDB, Couchbase, DynamoDB
+            - CP [Unbounded size] => HBase, MongoDB, Couchbase, DynamoDB
 	7. Caches
     		Client caching, CDN caching, Webserver caching, Database caching, Application caching, Cache @Query level, Cache @Object level
      		Eviction policies
@@ -136,9 +136,9 @@ https://matthewdbill.medium.com/back-of-envelope-calculations-cheat-sheet-d6758d
       		- Write behind
       		- Refresh ahea
 	8. Asynchronism
-	- Message queues
-      	- Task queues
-      	- Back pressure
+	-  Message queues
+      	-  Task queues
+      	-  Back pressure
  	9. Communication
     	- TCP
     	- UDP
